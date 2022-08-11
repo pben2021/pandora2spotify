@@ -10,9 +10,9 @@ var request = require('request');
 var cors = require('cors');
 
 var token = '';
-var client_id = '73ff1a67197c47e184d35596daf7d444'; // Your client id
-var client_secret = '4b3bbb2194744e7b831bb5b112ced4e9'; // Your secret
-var redirect_uri = 'https://cryptic-earth-53193.herokuapp.com/#pandora'; // Your redirect uri
+var client_id = ''; // Your client id
+var client_secret = ''; // Your secret
+var redirect_uri = ''; // Your redirect uri
 var stateKey = 'spotify_auth_state';
 var generateRandomString = function(length) {
 	var text = '';
